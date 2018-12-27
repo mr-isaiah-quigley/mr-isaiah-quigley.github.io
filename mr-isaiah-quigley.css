@@ -1,0 +1,143 @@
+@charset "utf-8";
+/* CSS Document */
+/* Copyright 2017-2019 by Isaiah Quigley */
+* {
+	font-family: 'Lato', sans-serif;
+}
+
+table {
+	border-collapse: collapse;
+	width: 95%;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+table, th, td {
+	border: 1px solid black;
+}
+
+td {
+	padding: 15px;
+    text-align: center;
+}
+
+th {
+	padding: 0px 15px;
+}
+
+.mps, .myScore, .osr {
+	text-align: center;
+}
+
+nav {
+	width: 100%;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: red;
+}
+
+a.header {
+    padding: 10px;
+	display: inline;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+p, .top, h4 {
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.ref {
+	padding-left: 30px;
+	text-indent: -30px;
+}
+
+.body {
+	text-indent: 30px;
+	line-height: 2em;
+}
+
+.abstract {
+    line-height: 2em;
+}
+
+h6 {
+    text-align: right;
+}
+
+
+.descr {
+    text-align: left;
+}
+
+.myScore {
+    color: forestgreen;
+}
+
+#NA {
+    color: black;
+}
+
+.transfer {
+    border-style: solid;
+    background-color: firebrick;
+}
+
+.header .headerText {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+}
+
+a:hover .headerText {
+    visibility: visible;
+}
+
+img.pic:hover {
+    height: 183px;
+    width: 250px;
+}
+
+h3 {
+    padding-left: 50px;
+}
+
+#suit {
+    float: right;
+    height: 425px;
+    padding-right: 25px;
+}
+
+.cover {
+    padding-right: 450px;
+}
+
+#reference {
+    text-align: center;
+}
+
+table.other_Act {
+    width: 75%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/*
+Future planning: have sections for each web page and make each web page respond to different classes and ID's
+For example, all parts of the philosophy will be classified and can be edited with .phil.  Then, the only things with out .classes or #ID's will be the things for the whole site (i.e. nav bar, font type/size, layout, etc.)
+*/
