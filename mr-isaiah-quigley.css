@@ -137,6 +137,7 @@ table.other_Act {
     margin: 0 auto;
 }
 
+
 /*
 Future planning: have sections for each web page and make each web page respond to different classes and ID's
 For example, all parts of the philosophy will be classified and can be edited with .phil.  Then, the only things with out .classes or #ID's will be the things for the whole site (i.e. nav bar, font type/size, layout, etc.)
