@@ -137,6 +137,11 @@ table.other_Act {
     margin: 0 auto;
 }
 
+iframe {
+    display: block;
+    margin: 0 auto;
+}
+
 
 /*
 Future planning: have sections for each web page and make each web page respond to different classes and ID's
